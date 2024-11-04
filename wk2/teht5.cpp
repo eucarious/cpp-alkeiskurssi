@@ -19,7 +19,7 @@ int main() {
     }
 
     srand(time(0)); // actually randomize the number each time you run the exe
-    random = rand() % minimum + (maximum - minimum); // generates the same number without srand
+    random = rand() % (maximum - minimum) + minimum; // generates the same number without srand
 
     while (true) {
         

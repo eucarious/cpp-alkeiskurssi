@@ -19,7 +19,7 @@ int RandomBetween(int *min, int *max) {
     }
     
     srand(time(0));
-    return (rand() % *min + (*max - *min));
+    return (rand() % (*max - *min) + *min);
 };
 
 int ValidateGuess(int min, int max) {
