@@ -1,12 +1,11 @@
 #include <iostream>
 
 int* varaa_taulukko (int n) {
-    int *first = new int[n];
+    int* first = new int[n];
     return first;
 }
 
 void lue_arvot (int* t, int n) {
-    // en ymmärrä tehtävänantoo ;;;
     for (int i = 0 ; i < n ; i++)
     {
         std::cout <<  "anna " << i << " jäsenelle arvo" << std::endl;
