@@ -18,7 +18,6 @@ void kaanna(int* t, int n) {
     int half = n/2;
     for (int i = 0 ; i < half ; i++)
     {
-        // helper is from the start
         int helper = t[(n-i-1)];
         t[n-1-i] = t[i];
         t[i] = helper;
