@@ -2,6 +2,7 @@
 
 !*.cpp
 !*.png
+!*.h
 !*/
 !.gitignore
 !README.md
