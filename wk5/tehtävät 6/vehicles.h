@@ -24,6 +24,7 @@ class Vehicle {
     }
 };
 
+// wrong form of camelCase for functions. lowerUpper not UpperUpper.
 
 class Car : public Vehicle {
   int _totalDoors;
